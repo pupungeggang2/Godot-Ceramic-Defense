@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bonesvyevfq02"]
 
-[ext_resource type="Script" path="res://Script/Scene/start.gd" id="1_j3e1e"]
+[ext_resource type="Script" uid="uid://01pv76mpr1k0" path="res://Script/Scene/start.gd" id="1_j3e1e"]
 
 [node name="Start" type="Node2D"]
 script = ExtResource("1_j3e1e")
@@ -10,3 +10,15 @@ offset_left = 1160.0
 offset_top = 40.0
 offset_right = 1240.0
 offset_bottom = 120.0
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = 160.0
+offset_top = 160.0
+offset_right = 480.0
+offset_bottom = 480.0
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+offset_left = 800.0
+offset_top = 160.0
+offset_right = 1120.0
+offset_bottom = 480.0
